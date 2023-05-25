@@ -1,5 +1,6 @@
 import React from 'react'
-import { View, Text, Image, StyleSheet } from 'react-native'
+import { SafeAreaView, View, Text, Image, StyleSheet } from 'react-native'
+import Ionicons from '@expo/vector-icons/Ionicons'
 
 import { useRoute } from '@react-navigation/native'
 
@@ -9,29 +10,33 @@ export default function Synopsis() {
   const { data } = route.params
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Image source={{ uri: data.imagemUrl }} style={styles.image} />
-      <View style={styles.subContainer}>
-        <Text style={{ fontSize: 16 }}>
-          Nome: <Text style={styles.TitleDescription}>{data.nome}</Text>
-        </Text>
-        <Text style={{ fontSize: 16 }}>
-          Genero: <Text style={styles.TitleDescription}>{data.genero}</Text>
-        </Text>
-        <Text style={{ fontSize: 16 }}>
-          Ano lançamento:{' '}
-          <Text style={styles.TitleDescription}>{data.ano}</Text>
-        </Text>
-        <Text style={{ fontSize: 16 }}>
-          Nota do filme:{' '}
-          <Text style={styles.TitleDescription}>{data.nota}</Text>
-        </Text>
-        <Text style={{ fontSize: 16 }}>
-          Sinopse: {'\n'}
-          <Text style={styles.TitleDescription}>{data.sinopse}</Text>
-        </Text>
+
+      <View style={styles.data}>
+        <View style={styles.viewValue}>
+          <Ionicons name="heart" style={styles.icon} />
+          <Text style={{ color: '#6D6171' }}>
+            {data.genero} {' | '}
+          </Text>
+        </View>
+        <View style={styles.viewValue}>
+          <Ionicons name="time" style={styles.icon} />
+          <Text style={{ color: '#6D6171' }}>
+            {data.ano} {' | '}
+          </Text>
+        </View>
+        <View style={styles.viewValue}>
+          <Ionicons name="star" style={styles.icon} />
+          <Text style={{ color: '#6D6171' }}>
+            {data.nota} {''}
+          </Text>
+        </View>
       </View>
-    </View>
+      <View style={styles.textSynopsis}>
+        <Text style={{ color: '#ccc', fontSize: 16 }}>{data.sinopse}</Text>
+      </View>
+    </SafeAreaView>
   )
 }
 
@@ -39,26 +44,34 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: '#E0EDEE',
-    
+    alignItems: 'center',
+    backgroundColor: '#343435',
   },
   image: {
-    aspectRatio: 1,
-    resizeMode: 'contain',
+    width: '90%',
+    height: 400,
+    borderRadius: 10,
     marginTop: 10,
     marginBottom: 20,
   },
-  subContainer: {
-    backgroundColor: '#fff',
-    borderRadius: 10,
-    padding: 25,
-    margin: 8,
-    flexDirection: 'column',
+  data: {
+    flexDirection: 'row',
+    justifyContent: 'center',
     alignItems: 'center',
   },
-  TitleDescription: {
-    color: 'navy',
-    fontSize: 14,
-    fontWeight: 'bold',
+  viewValue: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: 5,
+  },
+  icon: {
+    color: '#6D6171',
+    fontSize: 20,
+  },
+  textSynopsis: {
+    width: '90%',
+    marginTop: 30,
+    color: '#ccc',
   },
 })
