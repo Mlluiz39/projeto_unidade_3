@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "nome": "Vingadores: Ultimato",
+    "ano": 2019,
+    "imagemUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/q6725aR8Zs4IwGMXzZT8aC8lh41.jpg",
+    "nota": 9.9,
+    "genero": "Ação",
+    "sinopse": "Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água nem comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco."
+  },
+  {
+    "id": 2,
+    "nome": "Rei Leão",
+    "ano": 2019,
+    "imagemUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2bXbqYdUdNVa8VIWXVfclP2ICtT.jpg",
+    "nota": 9.5,
+    "genero": "Aventura",
+    "sinopse": "Simba idolatra seu pai, Rei Mufasa, e leva a sério seu futuro real. Mas nem todos do reino celebram sua chegada. Scar, o irmão de Mufasa - e ex-herdeiro do trono - tem planos próprios. A batalha pela Pedra do Reino será repleta de traições, tragédia e drama, resultando no exilo de Simba. Com a ajuda de dois novos e inusitados amigos, Simba terá que crescer e voltar para recuperar o que é seu por direito."
+  },
+  {
+    "id": 3,
+    "nome": "Toy Story 4",
+    "ano": 2019,
+    "imagemUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/w9kR8qbmQ01HwnvK4alvnQ2ca0L.jpg",
+    "nota": 9.0,
+    "genero": "Animação",
+    "sinopse": "Woody sempre teve certeza sobre o seu lugar no mundo e que sua prioridade é cuidar de suas crianças, seja Andy ou Bonnie. Mas quando Bonnie adiciona um relutante novo brinquedo chamado Garfinho ao seu quarto, uma aventura na estrada ao lado de velhos e novos amigos mostrará a Woody quão grande o mundo pode ser para um brinquedo."
+  },
+  {
+    "id": 4,
+    "nome": "Homem-Aranha: Longe de Casa",
+    "ano": 2019,
+    "imagemUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2cAc4qH9Uh2NtSujJ90fIAMrw7T.jpg",
+    "nota": 8.5,
+    "genero": "Ação",
+    "sinopse": "Peter Parker está em uma viagem de duas semanas pela Europa, ao lado de seus amigos de colégio, quando é surpreendido pela visita de Nick Fury. Convocado para mais uma missão heroica, ele precisa enfrentar vários vilões que surgem em cidades-símbolo do continente, como Londres, Paris e Veneza, e também a aparição do enigmático Mysterio."
+  },
+  {
+    "id": 5,
+    "nome": "Capitã Marvel",
+    "ano": 2019,
+    "imagemUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+    "nota": 8.0,
+    "genero": "Ação",
+    "sinopse": "A história segue Carol Danvers e como ela se torna um dos heróis mais poderosos do universo quando a Terra é pega no meio de uma guerra galáctica entre duas raças alienígenas. Situado na década de 1990, Capitã Marvel é uma nova aventura de um período inédito na história do universo cinematográfico da Marvel."
+  },
+  {
+    "id": 6,
+    "nome": "John Wick 3: Parabellum",
+    "ano": 2019,
+    "imagemUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg",
+    "nota": 7.5,
+    "genero": "Ação",
+    "sinopse": "Após assassinar o chefe da máfia Santino D'Antonio no Hotel Continental, John Wick (Keanu Reeves) passa a ser perseguido pelos membros da Alta Cúpula sob a recompensa de U$14 milhões. Agora, ele precisa unir forças com antigos parceiros que o ajudaram no passado enquanto luta por sua sobrevivência."
+  },
+  {
+    "id": 7,
+    "nome": "Aladdin",
+    "ano": 2019,
+    "imagemUrl": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3iYQTLGoy7QnjcUYRJy4YrAgGvp.jpg",
+    "nota": 7.0,
+    "genero": "Aventura",
+    "sinopse": "Um jovem humilde descobre uma lâmpada mágica, com um gênio que pode lhe conceder desejos. Agora o rapaz quer conquistar a moça por quem se apaixonou, mas o que ele não sabe é que a jovem é uma princesa que está prestes a se noivar. Agora, com a ajuda do Gênio (Will Smith), ele tenta se passar por um príncipe e para conquistar o amor da moça e a confiança de seu pai."
+  }
+]
