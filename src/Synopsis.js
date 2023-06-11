@@ -48,10 +48,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#343435',
   },
   image: {
-    width: '90%',
-    height: 400,
+    height: 250,
+    aspectRatio: 1,
     borderRadius: 10,
-    marginTop: 10,
+    marginTop: 40,
     marginBottom: 20,
   },
   data: {
